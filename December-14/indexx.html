@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Filter With Search</title>
+    <link rel="stylesheet" href="stylee.css">
+    <script src="indexx1.js"></script>
+</head>
+<body>
+    <div class="filter-container">
+        <input type="text" class = "Search-input"placeholder="Search" onkeyup = filterCards()>
+        <select class="category-select" onkeyup="filterCards()" id = "categorySelect">
+            <option value="">All Cards</option>
+            <option value="human">Only Humans</option>
+            <option value="car">Only Cars</option>
+            <option value="animal">Only Animals</option>
+        </select>
+    </div>
+
+    <div class="cards-container">
+        <div class="card">
+            <img src="/Assets/giraffe.jpg" alt="">
+            <div class="card-content">
+                <h3>Girrafe</h3>
+                <p>Description for The Giraffe</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

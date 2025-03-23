@@ -1,0 +1,140 @@
+<html>
+    <head>
+       <meta charset='UTF-8'/>
+            <Title>This is a classwork</Title>
+        <meta name="description" content="This is a starter's Website" />
+        <meta   name="author" content="Niko Kutateladze" />
+    </head>
+    <body>
+        <style>
+            label:hover {
+                cursor:pointer;
+            }
+            button:hover {
+                cursor:pointer;
+            }
+            p:hover {
+                cursor:pointer;
+            }
+        </style>
+        <!-- <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            body {
+                background-color: rgb(0, 170, 255);
+                margin:0;
+                padding:0;
+                font-family: "Poppins";
+            }
+            .container{
+                width: 300px;
+                height: 420px;
+                background: cyan;
+                justify-content: cneter;
+                position: relative;
+                left: 600px;
+                top: 150px;
+                box-shadow: 0px 0px 30px cyan;
+                font-family:"Poppins";
+                font-size: 12px;
+            }
+            input {
+                position: relative;
+                left: 65px;
+                top: 40px;
+                font-family:"Poppins";
+            }
+            button {
+                position: relative;
+                top: 40px;
+                left: 94px;
+                width: 100px;
+                text-align: center;
+                border-radius:5px;
+                outline: solid 2px rgb(255, 255, 255);
+                background:rgb(0, 94, 255);
+                color: rgb(0, 41, 91);
+            }
+            button:hover{
+                box-shadow: 0px 0px 20px rgba(0, 94, 255, 0.677);
+                outline: solid 0.5px transparent;
+                color: rgb(255, 255, 255);
+                transition:.4s;
+            }
+            .DateOfBirth {
+                left: 70px;
+                width: 150px;
+            }
+            #Username {
+                   
+            }
+        </style> -->
+        
+        
+            <form autocomplete="off" >
+                <div class="container">
+                    <label for="Username">Username</label>
+                    <input type="text" name="Username" id="Username" placeholder="Enter Your Username" maxlength="10" required/>
+                    <br/>
+                    <br/>
+                    <label for="time">End-Time</label>
+                    <input type="time" name="Time" id="time" placeholder="Enter Your end-Time" maxlength="4" required/>
+                    <br>
+                    <br>
+                    <label for="lastname">Lastname</label>
+                    <input type="text" name="Lastname" placeholder="Enter Your Lastname"maxlength="16" required id="lastname"/>
+                    <br>
+                    <br>
+                    <label for="pass">Password</label>
+                    <input type="password" name="Password" placeholder="Enter Your Password" maxlength="20" required id="pass"/>
+                    <br>
+                    <br>
+                    <label for="Email">Email</label>
+                    <input type="Email" name="E-Mail" placeholder="Enter Your E-Mail" maxlength="18" required id="Email" />
+                    <br>
+                    <br>
+                    <label for="Salary">Salary</label>
+                    <input type="number" name="Sal" placeholder="Enter your Salary" min="0" max="25000" required id="Salary">
+                    <br>
+                    <br>
+                    <label for="Date">Birth Date</label>
+                    <input type="date" class="DateOfBirth" placeholder="Enter your BirthDate" id="Date" required>
+                    
+                
+                </div>
+                <p>Your favorite Phone</p>
+                <label for="iPhone1">iPhone</label>
+                <input type="checkbox" id="iPhone1" name="iPhone1">
+                <br>
+                <br>
+                <label for="Samsung1">Samsung</label>
+                <input type="checkbox" id="Samsung1" name="iPhone1">
+                <br>
+                <br>
+                <label for="Huawei1">Huawei</label>
+                <input type="checkbox" id="Huawei1" name="Huawei1" >
+
+               <p>Your favorite Phone</p>
+               <label for="iPone">iPhone</label>
+               <input type="radio" id="iPone" name="iPhone">
+               <br>
+               <br>
+               <label for="Samsung2">Samsung</label>
+               <input type="radio" id="Samsung2" name="Samsung">
+               <br><br>
+               <label for="Huawei2">Huawei</label>
+               <input type="radio" id="Huawei2" name="Huawei">
+                <br>
+                <br>
+                <label for="SalaryRange">Salary Range:</label>
+                <input type="range" name="SalaryRange" id="SalaryRange" min="0" max="100" step="20">
+                <br>
+        
+                    <br>
+                    <button type="submit">Submit</button>
+                    <br>
+                    <br>
+                    <button type="reset">Clear</button>
+            </form>
+        
+    </body>
+</html>

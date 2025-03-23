@@ -1,0 +1,31 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    position:relative;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.block-1{
+    background-color: yellow;
+
+    top: 40px;
+    left: 40px;
+    z-index: 0;
+}
+.block-2{
+    background-color: green;
+
+    top: 60px;
+    left: 70px;
+    z-index: 0;
+}
+.block-3{
+    background-color: pink;
+
+    top: 80px;
+    left: 110px;
+}

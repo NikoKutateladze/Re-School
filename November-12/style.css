@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: arial, sans-serif;
+}
+
+button  {
+    padding: 30px;
+    font-size: 3rem;
+    background-color: transparent;
+    backdrop-filter:brightness(80%);
+    font-weight: bold;
+    border-radius: 20px;
+    border: solid .5rem ;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    color: #fff;
+}
+button:hover {
+    padding: 31px;
+    font-size: 3.1rem;
+}
+button:active {
+    backdrop-filter: brightness(90%);
+    transition: 0s;
+}

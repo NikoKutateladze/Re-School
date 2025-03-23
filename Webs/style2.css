@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0 ;
+    padding: 0 ;
+    font-family: "Poppins" , sans-serif;
+    background-image: url(/Pictures/tree-838667_1920.jpg);
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-weight: 600px;
+}
+p {
+    font-size: 20px;
+}
+.search {
+    background: transparent;
+    border:1px solid #FE7201;
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.button {
+    background: #FE7201;
+    height: 45px;
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-self: flex-end;
+    margin-left: 200px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover {
+    cursor:pointer;
+    box-shadow: 0px 0px 20px #ff4400;
+    transition: 0.3s;
+}
+
+h1 {
+    color: #FE7201;
+    font-size: 50px;
+}
+
+.inputs {
+    width: auto;
+    height:auto;
+    
+}
+
+.search::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+.container {
+    margin: auto 0;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    column-gap: 100px;
+    margin-left: 100px;
+    margin-top: +60px;
+}
+.h1 {
+    height: 20px;
+    color: white;
+    font-family: serif;
+}
+.h2 {
+    height: 20px;
+    font-family: serif;
+}
+.button2 {
+    background: #FF7101;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 20px;
+}
+.button2:hover {
+    cursor:pointer;
+    box-shadow: 0px 0px 20px #ff4400;
+    transition: 0.3s;
+}
+.container2 {
+    margin-left: 72%;
+    height:420px;
+    width: 320px;
+    background:rgba(0, 0, 0, 0.744);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.wrapper {
+    width: 95%;
+    position: relative;
+    bottom: 400px;
+    margin-left: 0%;
+    display: flex;
+    /* background: blue; */
+    justify-content: flex-end;
+}
+.input::placeholder {
+    color: white;
+}
+.input {
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid #FE7201;
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+svg{
+    filter: invert();
+    width: 40px;
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.Login {
+    background: white;
+    color: #ff891a;
+    width: 80%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.button3 {
+    background: #ff891a;
+    color: rgba(0, 0, 0, 0.744);
+    width: 80%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight:700;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.button3:hover {
+    cursor:pointer;
+    box-shadow: 0px 0px 20px #ff4400;
+    transition: 0.3s;
+}
+.Logwth {
+    margin-top: 10px;
+    font-family:serif;
+    
+}
+
+b {
+    color: #ff4400;
+    font-weight: 500;
+    cursor: pointer;
+}

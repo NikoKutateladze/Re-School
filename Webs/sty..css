@@ -1,0 +1,28 @@
+body {
+    font-family:sans-serif;
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 195, 84);
+}
+
+.box {
+    background: rgb(0, 179, 255);
+    width: 5rem;
+    height:5rem;
+    outline: solid 5px rgb(0, 230, 230);
+    border-radius: 2px;
+    position:sticky;
+    top: 0px;
+    width:100%;
+}
+
+.container {
+    background: rgb(0, 39, 136);
+    width: 5rem;
+    height:5rem;
+    outline: solid 5px rgb(38, 53, 255);
+    border-radius: 2px;
+    height: 200vh;
+    display: flex;
+    align-items:space-between;
+}

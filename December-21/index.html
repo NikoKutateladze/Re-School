@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search and Cetegory Filter</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <input type="search" class="input" placeholder="Search" <--onkeyup = "filteredCards()" id="input">
+        <select name="" id="categorySelect" <--onchange="filteredCards()">
+            <option value="">All Cards</option>
+            <option value="humans">Only Humans</option>
+            <option value="animals">Only Animals</option>
+            <option value="cars">Only Cars</option>
+        </select>
+    </div>
+
+    <div id="cardContainer"></div>
+    
+    <div id = "card" class="card" style="
+    padding: 10px; border: solid 1px;
+    ">
+        <img src="/Assets/giraffe.jpg"alt="Giraffe">
+        <h1 >Giraffe</h1>
+        <h3>Category:Animal</h3>
+        <p>Description for Giraffe</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Cart button styling */
+    .cart-button {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    /* Cart panel styling */
+    .cart-panel {
+      position: fixed;
+      top: 0;
+      right: -300px; /* Initially hidden off-screen */
+      width: 300px;
+      height: 100%;
+      background-color: #f8f9fa;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+      overflow-y: auto;
+      transition: right 0.3s ease; /* Smooth open/close animation */
+      z-index: 999;
+    }
+
+    /* Visible cart panel */
+    .cart-panel.open {
+      right: 0; /* Slide in */
+    }
+
+    /* Cart header */
+    .cart-header {
+      padding: 15px;
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    /* Cart content */
+    .cart-content {
+      padding: 15px;
+    }
+
+    /* Close button */
+    .close-cart {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Shopping Cart Button -->
+  <button class="cart-button" onclick="toggleCart()">🛒 Cart</button>
+
+  <!-- Shopping Cart Panel -->
+  <div class="cart-panel" id="cartPanel">
+    <div class="cart-header">
+      <button class="close-cart" onclick="toggleCart()">✖</button>
+      Shopping Cart
+    </div>
+    <div class="cart-content">
+      <p>Your cart is empty.</p>
+      <!-- Add cart items dynamically here -->
+    </div>
+  </div>
+
+  <script>
+    function toggleCart() {
+      const cart = document.getElementById("cartPanel");
+      cart.classList.toggle("open"); // Toggles the 'open' class to show/hide the cart
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ebebeb;
+}
+
+.counter-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#counter-display {
+    font-size: 44px;
+    text-align: center;
+}
+
+#start-btn {
+    background-color: Green;
+    
+}
+#stop-btn {
+    background-color: red;
+}
+#stop-btn , #start-btn {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#start-btn:active {
+    background-color: rgb(1, 108, 1);
+}
+#stop-btn:active {
+    background-color: rgb(210, 0, 0);
+}

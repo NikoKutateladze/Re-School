@@ -1,0 +1,170 @@
+<html>
+    <head>
+       <meta charset='UTF-8'/>
+            <Title>This is a simple starter</Title>
+        <meta name="description" content="CSS Task" />
+        <meta   name="author" content="Niko Qutateladze" />
+        <style>
+            body {
+                color: #8B758B;
+            }
+            
+            
+            input {
+                width: 350px;
+                border-radius:10px;
+                height: 40px;
+                outline: transparent;
+            }
+            h3 {
+                color: red;
+            }
+            button {
+                width: 110px;
+                height: 50px;
+                border-radius: 10px;
+            }
+            th {
+                color:black;
+            }
+            .orange {
+                background-color: rgb(255, 188, 63);
+            }
+            .gray {
+                background-color: rgb(188, 188, 188);
+            }
+            th  {
+                width: 40px;
+                height: 40px;
+                outline: none;
+            }
+            table {
+                outline: solid 1px black;
+            }
+            .tr2 {
+                color: black;
+            }
+            .tr3 {
+                color: red
+            }
+            .tr4 {
+                color: rgb(0, 157, 255);
+            }
+            .tr5 {
+                color: rgb(2, 130, 36);
+            }
+            .tr6 {
+                color: orange;
+            }
+            td {
+                outline: solid  1px black;
+                width:40px;
+                height: 40px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <form > 
+            <input type="text" placeholder="Enter your Name" name="Name" required min="8">
+            <br><br>
+            <input type="text" placeholder="Enter your Lastname" name="Lastname" required max="">
+            <br><br>
+            <input type="password" placeholder="Enter your Password" name="Password" required>
+            <br><br>
+            <input type="password" placeholder="repeat your Password" name="Repeat password" required>
+
+            <h3>*Passwords must match:</h3>
+            <ul>
+                <li>Atleast one number(0-9)</li>
+                <li>Atleast 8 character length</li>
+                <li>Atleast one lowercase letter(a-z)</li>
+                <li>Atleast one uppercase letter(A-Z)</li>
+                <li>Atleast one special symbol(!,$)</li>
+            </ul>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th class="orange">Sun</th>
+                    <th class="gray">Mon</th>
+                    <th class="orange">Tue</th>
+                    <th class="gray">Wed</th>
+                    <th class="orange">Thu</th>
+                    <th class="gray">Fri</th>
+                    <th class="orange">Sat</th>
+            
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr class="tr2">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr class="tr3">
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr class="tr4">
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr class="tr5">
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr class="tr6">
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

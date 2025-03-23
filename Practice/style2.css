@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: "Source code pro";
+    overflow-x: hidden;
+}
+.nav-bar {
+    /* background-color: #fca311; */
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #14213D;
+    border-bottom: solid 5px #fff;
+    background: radial-gradient(circle at 20% 20%, #ff4d4d, transparent),
+                  radial-gradient(circle at 80% 30%, #ff9f1c, transparent),
+                  radial-gradient(circle at 40% 70%, #d72638, transparent),
+                  radial-gradient(circle at 70% 80%, #f79824, transparent);
+    background-blend-mode: multiply;
+    z-index:-1;
+}
+.input-search {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #14213D;
+    transition: .4s ease-in-out;
+}
+.input-search:hover {
+    border-radius: 100px;
+}
+.name ,.home ,.category {
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.category:hover {
+    background-color: #14213D;
+    color: #fca311;
+}
+
+.home:hover {
+    background-color: #14213D;
+    color: #fca311;
+}
+.box {
+    color: #14213D;
+    background-color: #e5e5e5;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 5px #fff;
+}
+.Buy {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 60px;
+    border: none;
+    font-family: "Source Code Pro";
+    cursor: pointer;
+    text-align: center;
+}
+.container{
+    width: 80vw;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 5px;
+    padding: 30px;
+    gap: 20px;
+}
+
+.icon {
+    cursor: pointer;
+}
+.cart-panel {
+    position:fixed;
+    right: -550px;
+    top: 0px;
+    height: 600px;
+    z-index: 100;
+    background-color: #e5e5e5;
+    width: 450px;
+    box-shadow: 0px 0px 50px #111;
+    border: solid 3px #fff;
+    border-radius: 30px 0px 0px 30px;
+    transition: .4s ease-in-out;
+}
+.close {
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+}
+.header {
+    /* position: relative; */
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    z-index: 105;
+    border-top-left-radius: 30px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+select {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.wrap2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 34px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    
+   <div class="nav-bar">
+        <div class="name">LOGO & NAME</div>
+        <div class="home">HOME</div>
+        <div class="category">CATEGORY</div>
+        <input type="search" class="input-search" placeholder="Search">
+        <div class="icon" onclick="popUp()"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#14213D"><path d="M286.79-81Q257-81 236-102.21t-21-51Q215-183 236.21-204t51-21Q317-225 338-203.79t21 51Q359-123 337.79-102t-51 21Zm400 0Q657-81 636-102.21t-21-51Q615-183 636.21-204t51-21Q717-225 738-203.79t21 51Q759-123 737.79-102t-51 21ZM235-741l110 228h288l125-228H235Zm-30-60h589.07q22.97 0 34.95 21 11.98 21-.02 42L694-495q-11 19-28.56 30.5T627-453H324l-56 104h491v60H277q-42 0-60.5-28t.5-63l64-118-152-322H51v-60h117l37 79Zm140 288h288-288Z"/></svg></div>
+        
+            
+                
+   </div>
+   </div>
+   <div class="cart-panel" id="cartPanel">
+            <div class="header">Shopping Cart
+                <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#fff"  class="close" onclick="closeCart()"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+            </div>
+            <div class="wrap2">
+                <label for="quantity">Quantity: </label>
+                <div id="quantity">0</div>
+            </div>
+        </div>
+   <div class="container">
+        <div class="box">
+            <div class="image"></div>
+            <div class="subject">Item Name</div>
+            <div class="description">Description for this item</div>
+            <div class="price">9.99$</div>
+            <div class="size">5 Sizes</div>
+            <div class="wrapper">
+                <button class="Buy" id = "buyBtn" onclick="addToCart()">Add To Cart</button>
+                <select name="size" id="size">
+                    <option value="XL">XL</option>
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                    <option value="S">S</option>
+                    <option value="XS">XS</option>
+                </select>
+            </div>
+        </div>
+        
+   </div>
+
+   
+   
+   
+   
+   <script src="index2.js"></script>
+</body>
+</html>

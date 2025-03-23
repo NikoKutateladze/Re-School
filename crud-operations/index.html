@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CRUD Operations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        input,
+        button {
+            margin: 5px;
+            padding: 8px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Simple CRUD App</h2>
+
+    <input type="text" id="itemName" placeholder="Enter item name" />
+    <input type="number" id="itemPrice" placeholder="Enter item price" />
+    <button onclick="addItem()">Add Item</button>
+
+    <h3>Item List</h3>
+    <div id="itemsList"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/911-porscha');
+
+
+body {
+    font-family: "Poppins" , sans-serif;
+    background: #FFFC00;
+    padding: 0;
+    margin: 0;
+}
+
+.FirstP {
+    box-sizing: border-box;
+    padding: 0;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(0, 200, 255);
+    height: 200px;
+    font-size: 30px;
+    box-shadow: 0px 0px 20px rgb(0, 200, 255);
+}
+
+.SecondP {
+    box-sizing: border-box;
+    padding: 0;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(255, 0, 55);
+    height: 200px;
+    font-size: 30px;
+    box-shadow:0px 0px 30px rgb(255, 0, 55)
+}
+
+@media (max-width:1280px) {
+    .FirstP {
+        font-size: 27px;
+        height: 170px;
+    }
+
+    .SecondP {
+        font-size: 27px;
+        height: 170px;
+    }
+}
+
+@media (max-width:900px){
+    .FirstP {
+        font-size:25px;
+    }
+    .SecondP {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:701px) {
+    .FirstP {
+        font-size: 20px;
+        height:150px;
+    }
+    .SecondP {
+        font-size: 20px;
+        height:150px;
+    }
+}
+
+@media (max-width:561px) {
+    .FirstP {
+        font-size: 17px;
+        height: 120px;
+    }
+    .SecondP {
+        font-size: 17px;
+        height: 120px;
+    }
+}
+
+@media (max-width:477px) {
+    .FirstP {
+        font-size:15px ;
+    }
+    .SecondP {
+        font-size:15px ;
+    }
+}
+
+@media (max-width:421px) {
+    .FirstP {
+        font-size: 13px;
+    }
+    .SecondP {
+        font-size: 13px;
+    }
+}
+@media (max-width:259px) {
+    .FirstP {
+        font-size: 12px;
+    }
+    .SecondP {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:240px){
+    .FirstP {
+        font-size: 10px;
+    }
+    .SecondP {
+        font-size: 10px;
+    }
+}

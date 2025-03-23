@@ -1,0 +1,27 @@
+.circle-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    transform: rotate(-90deg); /* Rotate to start the stroke from the top */
+  }
+  
+  .circle-background {
+    opacity: 0.3;
+  }
+  
+  .circle-progress {
+    transition: stroke-dashoffset 0.35s;
+  }
+  
+  .percentage-text {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

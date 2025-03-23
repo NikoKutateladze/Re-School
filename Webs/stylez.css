@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+body {
+    background: linear-gradient(to right, #61AFF1 , #d5cdff , #6093f8);
+    font-family: 'Syne';
+    color: #141C4B;
+    /* background: #102127; */
+    font-size: 17px;
+    font-weight: 600;
+    background-size: 400% 400%;
+    height: 100vh;
+    width: 100vw;
+    animation: gradient 5s ease infinite;
+    padding: 0%;
+    margin: 0;
+    overflow: hidden;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position:100% 50%
+    }
+
+    100% {
+        background-position:0% 50%;
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    background: #F5F6FF;
+    position: fixed;
+    box-shadow: 0px 0px 10px rgb(130, 130, 130);
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor:pointer;
+    gap: 25%;
+}
+
+img {
+    width: 40px;
+}
+
+.icon-search {
+    width: 30px;
+}
+
+.text1:hover {
+    background: #c5c6cd;
+    position:relative;
+    transition: .2s;
+    cursor:pointer;
+}
+
+.text2:hover {
+    background: #c5c6cd;
+    position:relative;
+    transition: .2s;
+    cursor:pointer;
+}
+
+.text3:hover {
+    background: #c5c6cd;
+    position:relative;
+    transition: .2s;
+    cursor:pointer;
+}
+
+.text4:hover {
+    background: #c5c6cd;
+    position:relative;
+    transition: .2s;
+    cursor:pointer;
+}
+
+.text5:hover {
+    background: #c5c6cd;
+    position:relative;
+    transition: .2s;
+    cursor:pointer;
+}
+
+.icon-logo:hover {
+    background: #c5c6cd;
+    position:relative;
+    transition: .2s;
+    cursor:pointer;
+}
+
+.icon-guest:hover {
+    background: #c5c6cd;
+    position:relative;
+    transition: .2s;
+    cursor:pointer;
+}
+
+.icon-search:hover {
+    background: #c5c6cd;
+    position:relative;
+    transition: .2s;
+    cursor:pointer;
+}
+
+.log-in {
+    width: 400px ;
+    height: 600px;
+    background: transparent;
+    backdrop-filter: blur(24px);
+    background-color: hsla(230, 75%, 15%, .1);
+    z-index: 100;
+    position: absolute;
+    top: 120px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    left: 559px;
+}
+
+/*  */
+
+.box {
+    background: #F5F6FF;
+    width:350px;
+    height: 430px;
+    border-radius:  10px;
+    box-shadow: 0px 0px 15px rgb(184, 184, 184) ;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.btn {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background: #3B57E3;
+    width: 300px;
+    color: #C5CDF5;
+    text-align: center;
+    height:50px ;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    cursor:pointer;
+    box-shadow: 0px 0px 30px #2e9aff ;
+    color: #ffffff;
+    transition:  .6s;
+}
+
+input {
+    height:50px;
+    width: 300px;
+    border-radius: 7px;
+    outline: solid 2px #9AA3B5;
+    font-family: 'Syne';
+}
+
+.Mal {
+    position:relative;
+    top: 50px;
+    right:127px;
+    cursor: text;
+}
+
+.pass {
+    position:absolute;
+    top: 260px;
+    right: 267px;
+    cursor: text;
+}
+
+.Mal:hover {
+    cursor:text;
+}
+
+.new-acc {
+    position: absolute;
+    top: 360px;
+    right:130px ;
+    font-size: small;
+    font-family: 'Syne';
+    color:#858585;
+    font-weight: 400;
+    cursor: default;
+}
+
+.Login {
+    position:absolute;
+    bottom:470px;
+    font-size: 20px;
+    cursor: default;
+}
+
+
+
+.Sign-up {
+    position: absolute;
+    top: 360px;
+    right:83px ;
+    font-size: small;
+    font-family: 'Syne';
+    color:#3B57E3;
+    font-weight: 400;
+    cursor: pointer;
+}
+.Sign-up:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.forgot-pass {
+    position: absolute;
+    top: 380px;
+    right:123px ;
+    font-size: small;
+    font-family: 'Syne';
+    color:#3B57E3;
+    font-weight: 400;
+    cursor:pointer;
+}
+.forgot-pass:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.3s;
+}

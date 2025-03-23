@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: "roboto" , sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.container {
+    width: 1100px;
+    height: 500px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.296);
+    margin:  0 auto;
+}
+h1 {
+    font-family: "Poetsen one";
+    font-size: 60px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+}
+
+p {
+    width: 500px;
+    position: relative;
+    top: 190px;
+    left: 30px;
+    font-size: 15px;
+}
+img {
+    position:relative;
+    bottom: 150px;
+    left: 670px;
+    width: 400px;
+}
