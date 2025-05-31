@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="dashboard">
+        <div class="header">
+            <h2>Dashboard</h2>
+        </div>
+        <div class="wrapper">
+            <div class="dash" id="dashbrd">🏠 Dashboard</div>
+            <div class="dash" id="invest">💼 Investors</div>
+            <div class="dash" id="funds">📊 Funds</div>
+        </div>
+    </div>
+    <div class="wrapper1">
+        <div class="wrapper2">
+            <h1 id="h1">Welcome to The <span id="span">Dashboards</span></h1>
+            <div id="buttonAddInvestor" class="buttonAddInvestor">+ Add Investor</div>
+        </div>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Min Investment</th>
+                    <th>Max Investment</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+        </table>
+    </div>
+    <div id="container">
+        <div class="wrapper3">
+            <h1 id="head">Add Investor</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256" id="icon">
+            <g fill="#686868" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M7,4c-0.25587,0 -0.51203,0.09747 -0.70703,0.29297l-2,2c-0.391,0.391 -0.391,1.02406 0,1.41406l7.29297,7.29297l-7.29297,7.29297c-0.391,0.391 -0.391,1.02406 0,1.41406l2,2c0.391,0.391 1.02406,0.391 1.41406,0l7.29297,-7.29297l7.29297,7.29297c0.39,0.391 1.02406,0.391 1.41406,0l2,-2c0.391,-0.391 0.391,-1.02406 0,-1.41406l-7.29297,-7.29297l7.29297,-7.29297c0.391,-0.39 0.391,-1.02406 0,-1.41406l-2,-2c-0.391,-0.391 -1.02406,-0.391 -1.41406,0l-7.29297,7.29297l-7.29297,-7.29297c-0.1955,-0.1955 -0.45116,-0.29297 -0.70703,-0.29297z"></path></g></g>
+            </svg>
+        </div>
+        <div class="wrapper4">
+            <input type="text" placeholder="Name" id="name">
+            <input type="text" placeholder="Surname" id="surname">
+            <input type="number" placeholder="Min Investment" id="mnInvest">
+            <input type="number" placeholder="Max Investment" id="mxInvest"> 
+            <div id="buttonSave">Save</div>
+        </div>
+    </div>
+
+    <div id="container2">
+        <div class="wrapper3">
+            <h1 id="head2">Add Investor</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256" id="icon2">
+            <g fill="#686868" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M7,4c-0.25587,0 -0.51203,0.09747 -0.70703,0.29297l-2,2c-0.391,0.391 -0.391,1.02406 0,1.41406l7.29297,7.29297l-7.29297,7.29297c-0.391,0.391 -0.391,1.02406 0,1.41406l2,2c0.391,0.391 1.02406,0.391 1.41406,0l7.29297,-7.29297l7.29297,7.29297c0.39,0.391 1.02406,0.391 1.41406,0l2,-2c0.391,-0.391 0.391,-1.02406 0,-1.41406l-7.29297,-7.29297l7.29297,-7.29297c0.391,-0.39 0.391,-1.02406 0,-1.41406l-2,-2c-0.391,-0.391 -1.02406,-0.391 -1.41406,0l-7.29297,7.29297l-7.29297,-7.29297c-0.1955,-0.1955 -0.45116,-0.29297 -0.70703,-0.29297z"></path></g></g>
+            </svg>
+        </div>
+        <div class="wrapper4">
+            <input type="text" placeholder="Name" id="name2">
+            <input type="text" placeholder="Surname" id="surname2">
+            <input type="number" placeholder="Min Investment" id="mnInvest2">
+            <input type="number" placeholder="Max Investment" id="mxInvest2"> 
+            <div id="buttonSave2">Save</div>
+        </div>
+    </div>
+
+    <div id="blackBackground"></div>
+    <script src="script.js"></script>
+</body>
+</html>
