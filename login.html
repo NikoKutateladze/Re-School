@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login-box">
+        <h1 class="login-header">Login</h1>
+        <div class="wrapper input1">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="wrapper input2">
+            <label for="passwd">Password</label>
+            <input type="password" name="passwd" placeholder="••••••••" required>
+        </div>
+        <div class="button-login">Login</div>
+        <div class="button-register" id="register">Create an Account</div>
+        <div class="button-forgotPasswd" id="forgotPasswd">Forgot password?</div>
+    </div>
+
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+        body {
+            margin: 0;
+            background-color: #fafafc;
+            font-family: "inter";
+            user-select: none;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            width: 320px;
+            height: auto;
+            background-color: #fff;
+            padding: 34px;
+            box-shadow: 0 0 8px #0000001c;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            border-radius: .6rem;
+
+        }
+
+        h1 {
+            margin: 0;
+            color: #5345e9;
+            font-weight: 800;
+        }
+
+        input {
+            box-sizing: border-box;
+            border: 1px solid #f1f1f1;
+            padding: 10px;
+            border-radius: 6px;
+            width: 100%;
+            font-family: "inter";
+        }
+        input:focus {
+            box-shadow: 0 0 6px #5345e9;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: .5rem;
+        }
+
+        .button-login {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 12px;
+            background-color: #5345e9;
+            text-align: center;
+            border-radius: .4rem;
+            color: #fff;
+            cursor: pointer;
+            transition: .2s;
+        }
+        .button-login:hover {
+            background-color: #4037c9;
+        }
+
+        .button-register {
+            background-color: #6c7180;
+            color: #fff;
+            box-sizing: border-box;
+            width: 100%;
+            text-align: center;
+            padding: 12px;
+            cursor: pointer;
+            border-radius: .4rem;
+            transition: .2s;
+        }
+        .button-register:hover {
+            background-color: #8b95a5;
+        }
+
+        .button-forgotPasswd {
+            font-size: .9rem;
+            cursor: pointer;
+            color: #7a7980;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        const register = document.getElementById("register");
+        const forgotPasswd = document.getElementById("forgotPasswd");
+
+        register.addEventListener("click", () => {
+            window.location.href = 'register.html';
+        })
+        forgotPasswd.addEventListener('click', () => {
+            window.location.href = 'forgot-password.html';
+        })
+    </script>
+</body>
+
+</html>
